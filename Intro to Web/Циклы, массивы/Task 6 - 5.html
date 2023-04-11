@@ -1,0 +1,37 @@
+<script type="text/javascript">
+	
+    let log = prompt();
+    let pass = prompt();
+
+    users = [
+
+    {"login":"ilyas", "password": "qwerty"},
+
+    {"login":"eldar", "password": "qqqqq"},
+
+    {"login":"assylkhan", "password": "qweqwe"},
+
+    {"login":"anel", "password": "asdasd"},
+
+    {"login":"alibek", "password": "aaaaaa"}
+
+	];
+
+ 
+
+var text1 = "Welcome, you are authenticated";
+var text2 = "User not found";
+
+for(var i=0;i<users.length;i++){
+    if(log == users[i]["login"]){
+        alert(text1);
+    }else{
+        alert(text2);
+    }
+    // text+=users[i]["login"] + " - " + users[i]["password"]+"\n";
+
+} 
+
+alert(text);
+
+</script>

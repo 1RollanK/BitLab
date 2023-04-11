@@ -1,0 +1,17 @@
+<script type="text/javascript">
+    let n = parseInt(prompt("Insert n:"));
+    let arr = [];
+
+    for (let i=0; i<n; i++){
+        arr.push(prompt("Insert element:"));
+    }
+
+    let ans = "";
+    
+    for(let i=0; i<n; i++){ 
+        ans += arr[i] * arr[i] + " ";
+    }
+
+    alert(ans);
+
+</script>
